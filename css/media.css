@@ -34,30 +34,32 @@
    .section-testimonial .testimonial-card {
       width: 60%;
    }
-}.access-today-container {
-   display: grid;
-   width: 80%;
-   height: 100%;
-}
-.access-today-container .input-today {
-   display: grid;
-   justify-items: center;
-   grid-gap: 30px;
-}
-.access-today-container .input-today button {
-   width: 60%;
-   margin: 0;
-}
-footer {
-   display: grid;
-   height: auto;
-}
-footer .footer-section-2 {
-   display: grid;
-   grid-template-columns: 1fr;
-   justify-items: left;
-   grid-gap: 40px;
-}
-footer .footer-section-2 .footer-social {
-   justify-self: center;
+
+   .access-today-container {
+      display: grid;
+      width: 80%;
+      height: 100%;
+   }
+   .access-today-container .input-today {
+      display: grid;
+      justify-items: center;
+      grid-gap: 30px;
+   }
+   .access-today-container .input-today button {
+      width: 60%;
+      margin: 0;
+   }
+   footer {
+      display: grid;
+      height: auto;
+   }
+   footer .footer-section-2 {
+      display: grid;
+      grid-template-columns: 1fr;
+      justify-items: left;
+      grid-gap: 40px;
+   }
+   footer .footer-section-2 .footer-social {
+      justify-self: center;
+   }
 }
