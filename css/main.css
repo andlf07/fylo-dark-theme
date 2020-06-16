@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body {
+   background-color: hsl(218, 28%, 13%);
+   font-family: 'Open Sans', sans-serif;
+}
+header {
+   display: flex;
+   justify-content: space-between;
+   align-items: flex-end;
+   padding: 30px;
+   color: white;
+   background-color: hsl(217, 28%, 15%);
+}
+header .header__menu ul {
+   list-style: none;
+   display: flex;
+   flex-direction: row;
+}
+header .header__menu ul li {
+   margin: 35px;
+}
+.intro {
+   display: flex;
+   color: white;
+   flex-direction: column;
+   align-items: center;
+   margin: 0 auto;
+   background-image: url('../images/bg-curvy-desktop.svg');
+   background-repeat: no-repeat;
+   background-position-y: bottom;
+   background-color: hsl(217, 28%, 15%);
+}
+.intro .tittle1 h1 {
+   text-align: center;
+   font-size: 50px;
+   font-family: 'Raleway', sans-serif;
+   line-height: 70px;
+}
+.intro .tittle2 h3 {
+   text-align: center;
+   font-size: 25px;
+   font-weight: 400;
+   font-family: 'Raleway', sans-serif;
+   line-height: 40px;
+}
+.intro .intro__button {
+   margin-top: 35px;
+   border-style: none;
+   width: 35%;
+   height: 50px;
+   border-radius: 30px;
+   background: hsl(176, 68%, 64%);
+}
+.section__cards {
+   display: grid;
+   grid-template-rows: 1fr 1fr;
+   grid-gap: 30px;
+   justify-items: center;
+   padding-top: 100px;
+}
+.section__cards .card-section-1, .card-section-2 {
+   display: flex;
+   justify-content: center;
+}
+.section__cards .card {
+   width: 30%;
+   color: white;
+   text-align: center;
+   font-size: 14px;
+   font-family: 'Raleway', sans-serif;
+   padding: 40px;
+}
+.section__cards .card .card__img {
+   margin-bottom: 20px;
+}
+.section__cards .card .card__title {
+   margin-bottom: 10px;
+}
+.section__cards .card p {
+   line-height: 20px;
+}
+.section-stay-productive {
+   display: flex;
+   padding: 50px;
+   align-items: center;
+}
+.section-stay-productive .stay-productive-img {
+   width: 60%;
+}
+.section-stay-productive .stay-productive-img img {
+   width: 100%;
+   height: 50%;
+}
+.section-stay-productive .stay-productive-details {
+   color: white;
+   font-family: 'Raleway';
+   padding: 50px;
+   display: flex;
+   flex-direction: column;
+}
+.section-stay-productive .stay-productive-details h1 {
+   font-size: 35px;
+   line-height: 40px;
+   margin-top: 20px;
+}
+.section-stay-productive .stay-productive-details p {
+   font-size: 14px;
+   margin-top: 20px;
+}
+.section-stay-productive .stay-productive-details a {
+   color: hsl(176, 68%, 64%);
+   margin-top: 20px;
+}
+.section-testimonial {
+   display: flex;
+   padding: 40px 40px 40px 40px;
+   justify-content: center;
+   background-image: url('../images/bg-quotes.png');
+   background-repeat: no-repeat;
+   background-position-x: 160px;
+   background-position-y: 25px;
+}
+.section-testimonial .testimonial-card {
+   display: flex;
+   flex-direction: column;
+   background-color: hsl(219, 30%, 18%);
+   width: 25%;
+   padding: 20px;
+   margin: 25px;
+   color: white;
+   font-family: 'Open Sans', sans-serif;
+   box-shadow: 5px 5px 5px hsl(219, 30%, 18%);
+}
+.section-testimonial .testimonial-card .profile-card {
+   display: flex;
+   margin-top: 20px;
+}
+.section-testimonial .testimonial-card img {
+   width: 40px;
+   height: 40px;
+   margin-right: 10px;
+   border-radius: 25px;
+}
+.section-testimonial .testimonial-card .profile-card .name-details p {
+   font-size: 10px;
+}
+
+.access-today-container {
+   display: flex;
+   flex-direction: column;
+   width: 60%;
+   height: 300px;
+   padding: 40px 60px;
+   margin: auto;
+   color: white;
+   box-shadow: 5px 5px 5px hsl(217, 29%, 12%);
+   background-color: hsl(217, 28%, 15%);
+   position: relative;
+   top: 100px;
+   text-align: center;
+   align-items: center;
+   justify-content: center;
+   font-family: 'Raleway';
+}
+.access-today-container .tittle-today h1 {
+   font-size: 40px;
+   margin-bottom: 20px;
+}
+.access-today-container .tittle-today p {
+   font-size: 20px;
+   margin-bottom: 20px;
+}
+.access-today-container .input-today {
+   width: 100%;
+}
+.access-today-container input {
+   width: 60%;
+   height: 50px;
+   border-radius: 30px;
+   border-style: none;
+}
+.access-today-container .input-today button {
+   width: 20%;
+   height: 50px;
+   border-radius: 30px;
+   border-style: none;
+   color: white;
+   background: hsl(176, 68%, 64%);
+   margin-left: 20px;
+}
+
+
+footer {
+   display: grid;
+   grid-template-rows: 100px 1fr;
+   padding: 60px;
+   background-color: hsl(216, 53%, 9%);
+   height: 500px;
+   color: white;
+   font-family: 'Open Sans', sans-serif;
+   padding-top: 150px;
+}
+footer .footer-logo {
+   margin-left: 35px;
+}
+footer .footer-section-2 {
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+   justify-items: center;
+}
+footer .footer-location {
+   display: flex;
+   flex-direction: row;
+}
+footer .footer-icon {
+   width: 15px;
+   height: 20px;
+   margin-right: 20px;
+}
+footer .footer-number-email {
+   display: flex;
+   flex-direction: column;
+}
+footer .footer-number-email .footer-number, .footer-email {
+   display: flex;
+   margin-bottom: 20px;
+}
+footer .footer-section-2 .footer-aboutus a {
+   display: flex;
+   flex-direction: column;
+   text-decoration: none;
+   color: white;
+   margin-bottom: 20px;
+}
+footer .footer-section-2 .footer-contacus a {
+   display: flex;
+   flex-direction: column;
+   text-decoration: none;
+   color: white;
+   margin-bottom: 20px;
+}
+footer .footer-section-2 .footer-social .icon {
+   font-size: 40px;
+   margin-right: 30px;
+   text-decoration: none;
+}
