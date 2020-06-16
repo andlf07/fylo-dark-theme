@@ -1,0 +1,63 @@
+@media screen and (max-width: 375px) {
+   body {
+      display: grid;
+   }
+   .intro {
+      padding: 50px;
+   }
+   .section__cards {
+      display: grid;
+      grid-template-columns: 1fr;
+   }
+   .section__cards .card-section-1, .card-section-2 {
+      display: grid;
+      align-items: center;
+      justify-items: center;
+      grid-gap: 40px;
+   }
+   .section__cards .card {
+      padding: 0;
+      width: 50%;
+      height: 100%;
+   }
+   .section-stay-productive {
+      display: grid;
+      justify-items: center;
+   }
+   .section-stay-productive .stay-productive-details  br {
+      display: none;
+   }
+   .section-testimonial {
+      display: grid;
+      justify-items: center;
+   }
+   .section-testimonial .testimonial-card {
+      width: 60%;
+   }
+}.access-today-container {
+   display: grid;
+   width: 80%;
+   height: 100%;
+}
+.access-today-container .input-today {
+   display: grid;
+   justify-items: center;
+   grid-gap: 30px;
+}
+.access-today-container .input-today button {
+   width: 60%;
+   margin: 0;
+}
+footer {
+   display: grid;
+   height: auto;
+}
+footer .footer-section-2 {
+   display: grid;
+   grid-template-columns: 1fr;
+   justify-items: left;
+   grid-gap: 40px;
+}
+footer .footer-section-2 .footer-social {
+   justify-self: center;
+}
