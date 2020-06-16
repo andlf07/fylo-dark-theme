@@ -35,6 +35,7 @@ header .header__menu ul li {
    margin: 0 auto;
    background-image: url('../images/bg-curvy-desktop.svg');
    background-repeat: no-repeat;
+   background-size: contain;
    background-position-y: bottom;
    background-color: hsl(217, 28%, 15%);
 }
